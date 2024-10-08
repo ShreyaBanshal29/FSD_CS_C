@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#reg-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+#heading{
+    font-size: 30px;
+    text-align: center;
+    color:blue;
+    border: 3px solid black;
+}
+table{
+    background-color:rgb(183, 205, 197);
+    font-size: larger;
+    border: 3px solid black;
+}
