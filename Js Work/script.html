@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let heading=document.createElement("h1");
+        heading.innerText="HTML BY JS";
+        document.body.appendChild(heading);
+
+        let div=document.createElement("div");
+        div.style.width="200px";
+        div.style.backgroundColor="yellow";
+        div.style.height="200px";
+
+        let button= document.createElement("button");
+        button.innerText="Click Me";
+        button.id="btn";
+        div.appendChild(button)
+
+        let para=document.createElement("p");
+        para.id="para";
+        para.innerText="-----Insert Here-----";
+        div.appendChild(para);
+
+        document.body.appendChild(div);
+
+        btn.onclick= function(){
+            para.innerText="You clicked the button";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Events in JS</h1>
+    <button id="btn">Click Here</button>
+    <p id="para">-----Insert Here-----</p>
+    <label for="name">Name:</label>
+    <input type="text" placeholder="Enter Your Name" id="name"><br>
+    <p id="namepara"></p>
+    <label>Select a color:</label>
+    <select id="clr">
+        <option>Red</option>
+        <option>Yellow</option>
+        <option>Blue</option>
+    </select>
+    <p id="clrpara"></p>
+    <label></label>
+    <script>
+        document.getElementById("btn").addEventListener("click",function(){
+            document.getElementById("para").innerHTML="1";
+        })
+        document.getElementById("name").onfocus = function(){
+            document.getElementById("namepara").innerHTML="focused";
+        }
+        document.getElementById("clr").onchange = function(){
+            document.getElementById("clrpara").innerHTML="color changed";
+        }
+
+    </script>
+
+</body>
+</html>
