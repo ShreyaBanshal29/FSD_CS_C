@@ -1,0 +1,24 @@
+.disp{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ background-color: aqua;
+ border: 3px solid black;
+ text-align: center;
+ box-shadow: 5px 5px 5px;
+ padding: 20px;
+ width: 30%;
+ height: 600px;
+ margin-top: 50px;
+ margin-left: 500px;
+}
+.btn{
+    background-color: antiquewhite;
+    height: 40px;
+}
+.header{
+    background-color: azure;
+    width: 40px;
+    margin-left: 210px;
+    font-size: 40px;
+}
