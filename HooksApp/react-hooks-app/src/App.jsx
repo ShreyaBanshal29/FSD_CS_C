@@ -15,9 +15,8 @@ function App() {
           <Route path="/registration" element={<Registration regData={setStore} />} />
         </Routes>
       </BrowserRouter>
-
+                      
     </div>
   )
 }
-
 export default App

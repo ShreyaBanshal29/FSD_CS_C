@@ -1,0 +1,32 @@
+/* Mainlayout.css */
+
+/* General Body Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Link Styles */
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffcc00 !important;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e7e7e7;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
